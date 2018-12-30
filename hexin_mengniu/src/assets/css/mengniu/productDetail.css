@@ -1,0 +1,120 @@
+.productDetailMain {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #f4f4f4;
+	padding-bottom: 60px;
+	box-sizing: border-box;
+}
+
+.productDetailMain .swiperMain {
+	width: 100%;
+	height: auto;
+}
+
+.productDetailMain .product_introduce {
+	width: 100%;
+	height: auto;
+	padding: 10px 0 0;
+	margin-top: 10px;
+	background-color: white;
+	display: inline-block;
+}
+
+.productDetailMain .product_introduce .product_name {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.productDetailMain .product_introduce .product_detail {
+	width: 100%;
+	height: auto;
+	line-height: 20px;
+	padding-right: 25px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #101010;
+}
+
+.productDetailMain .product_introduce .sale_num {
+	width: 100%;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: rgb(102, 100, 102);
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.productDetailMain .product_introduce .sale_money {
+	width: 100%;
+	height: auto;
+	padding-left: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.productDetailMain .product_introduce .sale_money .left {
+	width: auto;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	font-size: 14px;
+	color: rgb(237, 23, 9);
+}
+
+.productDetailMain .product_introduce .sale_money .left span {
+	font-size: 18px;
+}
+
+.productDetailMain .product_introduce .sale_money .right {
+	font-size: 12px;
+	color: #101010;
+	width: auto;
+	height: 35px;
+	float: right;
+	line-height: 35px;
+	padding-right: 20px;
+}
+
+.productDetailMain .product_otherMore {
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+	background-color: white;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #101010;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.sale_bottom{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background: #ed1709;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.stock_none{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background: #bbbbbb;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}

@@ -1,0 +1,125 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "微软雅黑";
+  background-color:white;
+}
+
+input {
+	outline: none;
+}
+
+.visitListMain {
+	width: 100%;
+	height: auto;
+	padding: 11px 25px 0;
+	box-sizing: border-box;
+}
+
+.visitListMain .visitListTop {
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	border-radius: 4px;
+	margin-bottom: 16px;
+}
+
+.visitListMain .visitListTop .search {
+	width: 30px;
+	height: 30px;
+	float: left;
+	background: url(../../image/app/search.png) no-repeat center;
+	border-radius: 4px;
+}
+
+.visitListMain .visitListTop input {
+	height: 25px;
+	flex: 1;
+	border-radius: 4px;
+	border: 0px;
+	width: 100%;
+}
+
+.visitListMain .visitLists {
+	width: 100%;
+	height: 130px;
+	border-radius: 7px;
+	box-shadow: 0 0 8px 2px rgba(169, 215, 185, 0.50);
+	background: white;
+	position: relative;
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.visitListMain .visitLists .leftHead {
+	width: 101px;
+	height: 130px;
+	float: left;
+	padding: 11px 15px 20px;
+	box-sizing: border-box;
+	;
+}
+
+.visitListMain .visitLists .leftHead .head {
+	height: 70px;
+	width: 100%;
+	background: url(../../image/app/fangKeHead.png) no-repeat;
+	background-size: 70px;
+}
+
+.visitListMain .visitLists .leftHead .content {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #215934;
+}
+
+.visitListMain .visitLists .rightImf {
+	flex: 1;
+	height: 130px;
+	padding: 30px 0 40px 0;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.visitListMain .visitLists .rightImf .name {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #1a1a1a;
+}
+
+.visitListMain .visitLists .rightImf .statue {
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	background: #94cea8;
+	box-shadow: 0 0 4px 1px #a9d7b9;
+	border-radius: 4px;
+	bottom: -10px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 17px;
+	color: #ffffff;
+  right: 20px;
+  z-index: 10000;
+}
+
+.visitListMain .visitLists .rightImf .applyStaus {
+	width: 100px;
+	height: 35px;
+	font-size: 16px;
+	color: #b1e5c1;
+	position: absolute;
+	background: url(../../image/app/backPhoto.png);
+	transform: rotate(10deg);
+	right: 20px;
+	top: 23px;
+	line-height: 35px;
+	text-align: center;
+	background-size: 100px;
+}

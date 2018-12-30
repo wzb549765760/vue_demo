@@ -1,0 +1,41 @@
+* {
+	font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.problemList {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	border-bottom: 1px solid #f8f8f8;
+}
+
+.problemList .problem {
+	width: 100%;
+	padding: 10px 15px;
+	height: auto;
+	text-align: left;
+	line-height: 25px;
+	font-size: 16px;
+	color: #202020;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+.problemList .answer {
+	width: 100%;
+	padding: 10px 25px;
+	height: auto;
+	text-align: left;
+	line-height: 25px;
+	font-size: 14px;
+	box-sizing: border-box;
+	color: #8f8f8f;
+	background: #f8f8f8;
+	display: none;
+}

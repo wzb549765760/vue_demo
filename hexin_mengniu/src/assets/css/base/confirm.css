@@ -1,0 +1,82 @@
+.confirm_main {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+	display: inline-block;
+	text-align: center;
+}
+
+.confirm_main i {
+	display: inline-block;
+	width: 1px;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.confirm_main .confirm {
+	width: 85%;
+	min-height: 100px;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: white;
+	border-radius: 8px;
+	z-index: 1001;
+}
+
+.confirm_main .confirm .tittle {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.confirm_main .confirm .content {
+	width: 100%;
+	height: auto;
+	min-height: 150px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-align: left;
+	word-break: break-all;
+	word-wrap: break-word;
+	 display:flex;/*Flex布局*/  
+    display: -webkit-flex; /* Safari */  
+    align-items:center;/*指定垂直居中*/  
+}
+
+.confirm_main .confirm .bottom_main {
+	width: 100%;
+	display: flex;
+	border-top: 1px solid #E5E5E5;
+}
+
+.confirm_main .confirm .bottom_main .sureButtom {
+	flex: 1;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	font-size: 16px;
+	border-bottom-left-radius: 8px;
+}
+
+.confirm_main .confirm .bottom_main .closeButtom {
+	flex: 1;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	font-size: 16px;
+	border-bottom-right-radius: 8px;
+	border-left: 1px solid #E5E5E5;
+	box-sizing: border-box;
+}

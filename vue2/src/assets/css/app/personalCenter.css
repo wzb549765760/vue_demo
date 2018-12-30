@@ -1,0 +1,78 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "微软雅黑";
+  background-color: #FFFFFF;
+}
+
+.centerTop {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.centerTop .content {
+	width: 100%;
+	height: 73px;
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	margin-top: -36px;
+}
+
+.centerTop .content .name {
+	width: 100%;
+	height: 15px;
+	font-size: 15px;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 21px;
+}
+
+.centerTop .content .value {
+	width: 100%;
+	height: 36px;
+	font-size: 38px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.centerTable {
+	width: 100%;
+	height: 71px;
+	display: flex;
+	margin-top: 26px;
+}
+
+.centerTable .table {
+	height: 71px;
+	flex: 1;
+	border-right: 1px solid #dfdfdf;
+}
+
+.centerTable .table:last-child {
+	border-right: 0px;
+}
+
+.centerTable .table .img {
+	height: 40px;
+	width: 40px;
+	margin: auto auto;
+}
+
+.centerTable .table .content {
+	width: 100%;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+	font-size: 13px;
+	color: #629e76;
+}
+
+.getErWeiMa{
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}

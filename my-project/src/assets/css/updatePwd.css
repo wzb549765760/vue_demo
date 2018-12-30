@@ -1,0 +1,118 @@
+* {
+	font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	padding: 10px 20px;
+}
+
+.passwordMain {
+	width: 100%;
+	height: 35px;
+	padding-top: 10px;
+	border-bottom: 1px solid #979797;
+	display: flex;
+}
+
+.passwordMain .input {
+	flex: 1;
+	height: 35px;
+}
+
+.passwordMain .input input {
+	width: 100%;
+	height: 100%;
+	outline: none;
+	-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+	border: 0px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.passwordMain .changePwdType {
+	width: 80px;
+	height: 35px;
+	float: right;
+}
+
+.passwordMain .changePwdType .changMain {
+	height: 29px;
+    width: 60px;
+    margin: 3px 15px;
+    border-radius: 29px;
+    position: relative;
+    overflow: hidden;
+    background-color: #85b3f8;
+    text-align: left;
+    line-height: 29px;
+    font-size: 14px;
+    color: white;
+    text-indent: 5px;
+}
+
+.passwordMain .changePwdType .changMain .point {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: white;
+	top: 4.5px;
+	left: 5px;
+}
+
+.bottom {
+	width: 100%;
+	height: 40px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.bottom span {
+	width: 75%;
+	height: 40px;
+	display: inline-block;
+	margin: auto auto;
+	background: #85b3f8;
+	border-radius: 12px;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 40px;
+}
+
+
+.passwordMain .changePwdType .clickTrue {
+	border: 1px solid #85b3f8;
+	color: #85b3f8;
+}
+
+.passwordMain .changePwdType .clickFalse {
+	border: 1px solid #ccc;
+	color: #ccc;
+	box-sizing: border-box;
+}
+
+.passwordMain .changePwdType .changMain .slideMain {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #ccc;
+	border-radius: 29px;
+	left: 0px;
+	top: 0;
+	color: white;
+	line-height: 35px;
+	text-indent: 30px;
+}
+
+.passwordMain .changePwdType .changMain .slideMain .point {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: white;
+	top: 4.5px;
+	left: 5px;
+}

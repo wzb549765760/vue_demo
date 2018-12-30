@@ -1,0 +1,237 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "微软雅黑";
+	background-color: white;
+	/*padding-top: 30px;*/
+}
+
+input {
+	outline: none;
+	border-radius: 0;
+	text-indent: 0;
+}
+
+.visitLists {
+	width: 100%;
+	height: auto;
+	padding: 0 25px 0;
+	box-sizing: border-box;
+}
+
+.visitLists .visitList {
+	width: 100%;
+	height: 58px;
+	border-bottom: 1px solid #dfdfdf;
+	display: flex;
+	box-sizing: border-box;
+}
+
+
+.fontSise{
+	font-size: 16px;
+}
+.visitLists .visitList .logo {
+	width: 56px;
+	height: 56px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25px;
+}
+
+.visitLists .visitList .content {
+	flex: 1;
+	height: 46px;
+	padding: 5px 0;
+}
+
+.visitLists .visitList .content input{
+	width: 95%;
+	height: 80%;
+	border: 0px;
+}
+/*.visitLists .visitList .content input:focus{
+	border-bottom: 1px solid #94cea8;
+}*/
+
+.visitLists .visitList .content .name {
+	width: 100%;
+	height: 18px;
+	font-size: 12px;
+	color: #9b9b9b;
+	line-height: 18px;
+}
+
+.visitLists .visitList .content .value {
+	width: 100%;
+	height: 25px;
+	font-size: 16px;
+	color: #1a1a1a;
+}
+
+.visitLists .visitList .content input[class='inputMain'] {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	font-size: 17px;
+	color: #9b9b9b;
+}
+
+.time {
+	background-image: url(../../image/app/laifangTime.png);
+}
+
+.laifangName {
+	background-image: url(../../image/app/laifangR.png);
+}
+
+.gongshiName {
+	background-image: url(../../image/app/gongshiName.png);
+}
+
+.laifangNum {
+	background-image: url(../../image/app/laifangNum.png);
+}
+
+.lianxifangshi {
+	background-image: url(../../image/app/lianxifangshi.png);
+}
+
+.shiyou {
+	background-image: url(../../image/app/shiyou.png);
+}
+
+.endVisit {
+	height: 46px;
+	width: 100%;
+	margin-top: 87px;
+}
+
+.endVisit .endVisitMain {
+	height: 46px;
+	width: 124px;
+	margin: auto auto;
+	border: 1px solid #94cea8;
+	border-radius: 4px;
+	text-align: right;
+	font-size: 15px;
+	padding: 12px;
+	box-sizing: border-box;
+	color: #94cea8;
+	background: url(../../image/app/endVisit.png) no-repeat;
+	background-size: 24px;
+	background-position: 12px;
+}
+
+.endVisit .endVisitRefuse {
+	height: 46px;
+	width: 100px;
+	float: left;
+	border: 1px solid #94cea8;
+	border-radius: 4px;
+	text-align: right;
+	font-size: 15px;
+	padding: 12px;
+	box-sizing: border-box;
+	color: #94cea8;
+	background: url(../../image/app/refuse.png) no-repeat;
+	background-size: 24px;
+	background-position: 12px;
+}
+
+.endVisit .endVisitAccept {
+	height: 46px;
+	width: 100px;
+	float: right;
+	border: 1px solid #94cea8;
+	border-radius: 4px;
+	background-color: #94cea8;
+	color: white;
+	text-align: right;
+	font-size: 15px;
+	padding: 12px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.endVisit .endVisitAccept img {
+	width: 24px;
+	position: absolute;
+	top: 10px;
+	left: 12px;
+}
+
+.pa42 {
+	padding: 0 42px;
+	box-sizing: border-box;
+}
+
+.endOfVisit {
+	height: 90px;
+	width: 100%;
+	position: relative;
+}
+
+.endOfVisit .applyStaus {
+	width: 140px;
+	height: 50px;
+	font-size: 18px;
+	color: #b1e5c1;
+	position: absolute;
+	background: url(../../image/app/backPhoto.png);
+	transform: rotate(10deg);
+	right: 20px;
+	top: 20px;
+	line-height: 50px;
+	text-align: center;
+	background-size: 140px;
+}
+
+.laifangErWeiMa {
+	width: 130px;
+	height: 130px;
+	margin: auto auto;
+	margin-top: 50px;
+}
+
+.placehoderClass{
+	font-size:17px;
+	color:#9b9b9b;
+}
+
+.psection{
+	font-size:17px;
+	color:#9b9b9b;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-size:17px;
+		color:#9b9b9b;}
+　　:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size:17px;
+		color:#9b9b9b;}
+　　::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size:17px;
+		color:#9b9b9b;}
+　　:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size:17px;
+		color:#9b9b9b;}
+
+.endVisit .nextStep{
+	width: 100%;
+	height: 40px;
+	padding: 0 45px;
+	box-sizing: border-box;
+}
+.endVisit .nextStep span{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size:17px;
+	color:#ffffff;
+	display: inline-block;
+	border-radius:5px;
+	background:#d5d5d5;
+}

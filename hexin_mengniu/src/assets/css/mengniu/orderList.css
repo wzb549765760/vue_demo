@@ -1,0 +1,131 @@
+.orderMain {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #F5F5F5;
+	padding: 60px 0;
+	box-sizing: border-box;
+}
+
+.orderMain .orderTittle {
+	width: 100%;
+	height: 45px;
+	background-color: white;
+	font-size: 14px;
+	color: #101010;
+	position: fixed;
+	line-height: 45px;
+	top: 0rem;
+	left: 0px;
+	text-indent: 10px;
+}
+
+.orderMain .orderLists{
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	overflow: auto;
+	background-color: white;
+	padding-bottom: 10px;
+}
+
+.orderMain .orderLists .orderList{
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.orderMain .orderLists .orderList .orderLogo{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.orderMain .orderLists .orderList .orderLogo img{
+	height: 100%;
+}
+
+.orderMain .orderLists .orderList .orderContent{
+	height: 80px;
+	flex: 1;
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+
+.orderMain .orderLists .orderList .orderContent .name{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #101010;
+    font-size: 12px;
+}
+
+.orderMain .orderLists .orderList .orderContent .price{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+    color: rgb(237, 23, 9);
+    font-size: 14px;
+}
+
+.orderMain .orderLists .orderList .orderContent .price span{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.orderMain .orderLists .orderList .orderNum{
+	height: 80px;
+	width: auto;
+	min-width: 30px;
+	float: right;
+	line-height: 80px;
+	text-align: center;
+}
+
+.orderMain .orderLists .listTittle{
+	width: 100%;
+	height: 35px;
+	text-indent: 10px;
+    font-size: 14px;
+    color: #101010;
+    line-height: 35px;
+}
+
+.orderMain .paymentOrder{
+	width: 100%;
+	height: 45px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: white;
+	display: flex;
+}
+
+.orderMain .paymentOrder .sureB{
+	width: 100px;
+	height: 45px;
+	background-color: #ED1709;
+	line-height: 45px;
+	float: right;
+	text-align: center;
+	color: white;
+    font-size: 14px;
+}
+
+.orderMain .paymentOrder .amountPayable{
+	flex: 1;
+	height: 45px;
+	line-height: 45px;
+	text-align: right;
+    font-size: 14px;
+    color: #101010;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.orderMain .paymentOrder .amountPayable span{
+	color: rgb(237, 23, 9);
+}

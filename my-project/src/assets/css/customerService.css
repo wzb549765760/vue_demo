@@ -1,0 +1,204 @@
+* {
+	font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EEEEEE;
+}
+
+.serviceImf {
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 20px 0 10px;
+}
+
+.serviceImf img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	z-index: -100;
+}
+
+.serviceImf .headLogo {
+	width: 100%;
+	height: 100px;
+}
+
+.serviceImf .headLogo .logo {
+	width: 100px;
+	height: 100px;
+	margin: auto auto;
+	background-color: white;
+	border-radius: 100px;
+}
+
+.serviceImf .accountName {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+}
+
+.serviceImf .imfMain {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	margin-top: 20px;
+}
+
+.serviceImf .imfMain .imfList {
+	height: 60px;
+	flex: 1;
+}
+
+.serviceImf .imfMain .imfList span {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.communicationType {
+	width: 100%;
+	height: auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+	background-color: white;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.communicationType .type {
+	width: 100%;
+	height: 45px;
+	border-bottom: 1px solid #eee;
+	display: flex;
+}
+
+.communicationType .type .logo {
+	width: 40px;
+	height: 45px;
+	float: left;
+	background-size: 25px;
+}
+
+.communicationType .type .content {
+	height: 45px;
+	flex: 1;
+}
+
+.communicationType .type .content .left {
+	width: auto;
+	height: 45px;
+	line-height: 45px;
+	float: left;
+	font-size: 16px;
+	color: #202020;
+}
+
+.communicationType .type .content .right {
+	width: auto;
+	height: 45px;
+	line-height: 45px;
+	float: right;
+	font-size: 14px;
+}
+
+.color85b3f8 {
+	color: #85b3f8;
+}
+
+.qqfk {
+	background: url(../img/QQkf.png) no-repeat left;
+}
+
+.qqqun {
+	background: url(../img/QQqun.png) no-repeat left;
+}
+
+.serviceMobile {
+	background: url(../img/serviceMobile.png) no-repeat left;
+}
+
+.conpanyEmail {
+	background: url(../img/conpanyEmail.png) no-repeat left;
+}
+
+.personMenu {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	background-color: white;
+	margin-top: 5px;
+}
+
+.personMenu .menuList {
+	width: 33.333%;
+	height: 100px;
+	float: left;
+	padding: 20px 0 0 0;
+	box-sizing: border-box;
+}
+
+.personMenu .menuList .logo {
+	height: 40px;
+	width: 100%;
+}
+
+.personMenu .menuList .logo img{
+	margin: auto auto;
+	display: block;
+}
+
+.personMenu .menuList .content {
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #85b3f8;
+}
+
+.borderBottomOrRight{
+	border-bottom: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+}
+
+.borderRight{
+	border-right: 1px solid #EEEEEE;
+}
+
+.borderBottom{
+	border-bottom: 1px solid #EEEEEE;
+}
+
+
+
+.bottom {
+	width: 100%;
+	height: 40px;
+	margin-top: 60px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.bottom span {
+	width: 75%;
+	height: 40px;
+	display: inline-block;
+	margin: auto auto;
+	background: #85b3f8;
+	border-radius: 12px;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 40px;
+}

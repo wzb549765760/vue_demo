@@ -1,0 +1,77 @@
+
+
+.transactionTop {
+	width: 100%;
+	height: 170px;
+	padding: 31px 0 32px;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.transactionTop .logo {
+	width: 46px;
+	height: 46px;
+	margin: auto auto;
+}
+
+.transactionTop .tittle {
+	width: 100%;
+	height: 24px;
+	padding: 9px 0 7px;
+	font-size: 13px;
+	color: #5c5c5c;
+	line-height: 24px;
+	text-align: center;
+}
+
+.transactionTop .content {
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 21px;
+	color: #4d4d4d;
+}
+
+.detailMain {
+	width: 100%;
+	height: auto;
+	margin-top: 7px;
+	background: white;
+	padding-left: 24px;
+	box-sizing: border-box;
+}
+
+.detailMain .detailList {
+	width: 100%;
+	height: 34px;
+	border-bottom: 1px solid #E5E5E5;
+	display: flex;
+}
+
+.detailMain .detailList:last-child {
+	border-bottom: 0px;
+}
+
+.detailMain .detailList .name {
+	width: 53px;
+	float: left;
+	height: 34px;
+	font-size: 12px;
+	color: #4d4d4d;
+	line-height: 34px;
+}
+
+.detailMain .detailList .value {
+	height: 34px;
+	flex: 1;
+	font-size: 14px;
+	color: #4d4d4d;
+	line-height: 34px;
+	text-align: right;
+	padding-right: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-word;
+	white-space: nowrap;
+}

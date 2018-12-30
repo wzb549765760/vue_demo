@@ -1,0 +1,115 @@
+* {
+	font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.tittle {
+	height: 55px;
+	background-color: #EEEEEE;
+	width: 100%;
+	line-height: 55px;
+}
+
+.tittle span {
+	display: inline-block;
+	font-size: 18px;
+	height: 55px;
+}
+
+.tittle .name {
+	width: 45%;
+	text-align: right;
+	color: #85b3f8;
+}
+
+.tittle .month {
+	width: 20%;
+	text-align: center;
+	color: #5c5c5c;
+}
+
+.tittle .num {
+	width: 30%;
+	text-align: center;
+	color: #5c5c5c;
+}
+
+.dataMain {
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+}
+
+.dataMain .dataTittle {
+	width: 100%;
+	height: 45px;
+	display: flex;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.dataMain .dataTittle div {
+	height: 45px;
+	flex: 1;
+	text-align: center;
+	float: left;
+	line-height: 45px;
+	font-size: 14px;
+	color: #303030;
+}
+
+.dataMain .dataTittle div:last-child {
+	border-left: 1px solid #EEEEEE;
+}
+
+.dataMain .dataTittle div i {
+	background: url(../img/choiceIcon.png) no-repeat;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background-size: 10px;
+	margin-left: 25px;
+}
+
+.dataMain .dataLists {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	display: flex;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.dataMain .dataLists:nth-of-type(odd) {
+	background-color: #eee;
+}
+
+.dataMain .dataLists span {
+	flex: 1;
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+}
+
+.dataMain .dataLists span:last-child {
+	border-left: 1px solid #f2f2f2;
+}
+
+.dataMain .dataNull {
+	padding: 10px 0;
+	height: auto;
+	background-color: #EEEEEE;
+}
+
+.dataMain .dataNull span {
+	width: 100%;
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+	color: #494949;
+	line-height: 20px;
+}
